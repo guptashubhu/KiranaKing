@@ -1,0 +1,49 @@
+.avatar-upload {
+    position: relative;
+}
+
+.avatar-edit {
+    position: absolute;
+    top: 210px;
+    height: 36px;
+    left: 37%;
+    width: 103px;
+    overflow: hidden;
+}
+
+.avatar-edit input {
+    opacity: 0;
+}
+
+.avatar-edit label {
+    position: relative;
+    top: -47px;
+    width: 100%;
+}
+
+.avatar-edit label::before {
+    position: absolute;
+    content: 'Choose File';
+    font-size: 15px;
+    padding: 10px 10px;
+    top: 3px;
+    left: 0;
+    background: #000;
+    border-radius: 8px;
+    color: #fff;
+}
+
+.avatar-preview img {
+    height: 200px;
+    width: 200px;
+    object-fit: cover;
+    border-radius: 50%;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%, 0px);
+    margin-bottom: 50px;
+}
+
+.error {
+    color: red;
+}
